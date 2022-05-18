@@ -1,6 +1,6 @@
 import { levels, Level } from "../../helpers/imc";
-import upImage from '../../assets/images/up.png'
-import downImage from '../../assets/images/down.png'
+import upImage from '../../assets/images/up.png';
+import downImage from '../../assets/images/down.png';
 import style from './GridItem.module.css';
 
 type Props ={
