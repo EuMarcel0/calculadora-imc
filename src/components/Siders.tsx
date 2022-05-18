@@ -51,6 +51,7 @@ export const Siders = () => {
                     disabled={toShow? true : false}
                 />
                 <button onClick={handleCalculateButton}  disabled={toShow? true : false}>Calcular</button>
+                
             </div>
             <C.RightArea>
                 <div className="rightSide">
@@ -71,6 +72,11 @@ export const Siders = () => {
                     }
                 </div>
             </C.RightArea>
+            <C.Footer>
+                <div className="footerArea">
+                    ©Desenvolvido por Marcelo Silva - Aula ReactJS - B7Web. Todos os direitos reservadors.
+                </div>
+            </C.Footer>
         </>
         
     );

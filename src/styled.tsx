@@ -12,12 +12,15 @@ export const Container = styled.div`
    .logoArea img{
        width: 150px;
    }
-
+   .headerArea{
+       padding: 10px 10px;
+   }
    .mainArea{
        display: flex;
        gap: 80px;
        margin-top: 40px;
    }
+
    .leftSide{
     flex: 1;
     padding: 10px;
@@ -60,6 +63,21 @@ export const Container = styled.div`
         }
         &:disabled{
             opacity: .4;
+        }
+    }
+
+    @media(max-width: 768px){
+        .mainArea{
+            flex-direction: column;
+            padding: 0 20px;
+        }
+        .headerArea{
+            padding: 0 29px;
+        }
+        
+        .leftArrow{
+            left: -25px !important;
+            top: -30px !important;
         }
     }
 `;
@@ -107,4 +125,24 @@ export const RightArea = styled.div`
    .leftArrow img{
        width: 27px;
    }
+   @media(max-width: 472px){
+    .gridArea{
+        grid-template-columns: repeat(1,1fr);
+    }
+   }
+`;
+
+export const Footer = styled.footer`
+    background-color: #227c9d;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 7px 5px;
+
+    .footerArea{
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+    }
 `;
