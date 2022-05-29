@@ -11,7 +11,7 @@ Para ter acesso a aplicação, basta acessar o link: https://calculate-your-imc.
 
 ### 🎥 Usabilidade e funcionalidades
 
-Informa sua altura e a sua altura(no formato que é mostrado no placeholder dos inputs).
+Informe a sua altura e o seu peso(Obs: altura como é mostrado no placeholder do input).
 Depois só clicar em calcular.
 
 ## 🛠️ Construído com
@@ -39,5 +39,5 @@ Open Source
 
 ## 🎁 Expressões de gratidão
 
-Fico muito grato por ter concluío este projeto, pois foi o primeiro projeto do curso de ReactJS, e por mais que já tivesse feito outro, neste senti que o desafio foi maior e de mais aprendizagem.
+Fico muito grato por ter concluído este projeto, pois foi o primeiro projeto do curso de ReactJS, e por mais que já tivesse feito outro, neste senti que o desafio foi maior.
 💻🚀😊
