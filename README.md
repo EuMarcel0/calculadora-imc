@@ -2,7 +2,7 @@
 
 <img src='src/assets/images/project_completed.png' alt='project_completed_image'>
 
-Esta aplicação foi desenvolvida para conclusão de atividade do modulo 4 do curso de ReactJs + TypeScript da **B7Web** (https://alunos.b7web.com.br/)
+Esta aplicação foi desenvolvida para conclusão de atividade do modulo 4 do curso de ReactJs + TypeScript da [B7Web](https://alunos.b7web.com.br/)
 
 ## 🚀 Começando
 
